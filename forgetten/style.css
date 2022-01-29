@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/n.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.change {
+    width: 487px;
+    display: block;
+    margin: 60px auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: darkblue;
+    box-shadow: 2px 4px 4px blue;
+    border-radius: 15px;
+}
+h1 {
+    text-align: center;
+    margin: 8px;
+    color: blue;
+}
+.change p {
+    font-size: 28px;
+    color: rgb(238, 226, 226);
+    text-transform: capitalize;
+    
+}
+
+label {
+    padding: 7px;
+    color: tomato;
+    text-transform: capitalize;
+    margin-top: 10px;
+    display: block;
+}
+
+.a {
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid blue;
+}
+.action input {
+    width: 100%;
+    padding: 7px;
+    margin: 7px;
+    color: black;
+    background-color: darkgreen;
+    box-shadow: 1px 2px 4px green;
+    cursor: pointer;
+}
